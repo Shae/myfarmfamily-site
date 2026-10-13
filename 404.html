@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/style.css"><title>My Farm Family</title></head><body><header><a href="/">🐾 My Farm Family</a><nav style="display:inline"><a href="/privacy/">Privacy</a><a href="/delete-account/">Delete account</a></nav></header><main id="m">
+<div id="nf"><h1>Page not found</h1><p>Sorry, that page doesn't exist. <a href="/">Go home</a>.</p></div>
+<div id="dl" hidden><h1 id="dt">Open in My Farm Family</h1><p>This link is meant to open in the My Farm Family app.</p>
+<p><a class="btn" id="open" href="#">Open in My Farm Family</a></p>
+<p>Don't have the app? <a class="btn alt" href="https://play.google.com/store/apps/details?id=family.myfarm.app">Get it on Google Play</a></p>
+<p class="card">You can also accept this request from <b>Messages</b> inside the app.</p></div>
+</main>
+<script>
+(function(){var m=location.pathname.match(/^\/(t|g|i)\/(.+)$/);if(!m)return;
+var k={t:'transfer',g:'gift',i:'invite'}[m[1]],t={t:'Pet transfer',g:'Gift',i:'Invitation'}[m[1]];
+var u='myfarmfamily://'+k+'/'+m[2].replace(/\/+$/,'')+location.search;
+document.getElementById('nf').hidden=true;document.getElementById('dl').hidden=false;
+document.getElementById('dt').textContent=t+' – Open in My Farm Family';document.getElementById('open').href=u;document.title=t+' – My Farm Family';
+setTimeout(function(){location.href=u},300);})();
+</script><footer>© 2026 My Farm Family · <a href="/privacy/">Privacy</a> · <a href="/delete-account/">Delete account</a> · <a href="mailto:support@myfarmfamily.org">support@myfarmfamily.org</a></footer></body></html>
