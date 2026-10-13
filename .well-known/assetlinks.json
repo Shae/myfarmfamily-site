@@ -1,1 +1,11 @@
-[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"family.myfarm.app","sha256_cert_fingerprints":["REPLACE_WITH_PLAY_APP_SIGNING_SHA256"]}}]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "family.myfarm.app",
+    "sha256_cert_fingerprints": [
+      "77:62:6E:18:99:74:66:A9:26:B1:FD:F8:2D:E8:00:41:9B:EA:5C:5A:49:49:2B:77:63:35:D3:22:1E:35:C4:5E",
+      "D5:FF:E4:69:51:C0:0A:8D:F6:4E:F1:F3:B1:DF:5F:64:02:15:A3:66:3E:06:0F:E8:00:F9:67:5F:1F:11:ED:97"
+    ]
+  }
+}]
